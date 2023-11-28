@@ -24,7 +24,7 @@ export const styles = `
         width: 100%;
         position: absolute;
         top: 14px;
-        left: 1px;
+        left: 14px;
         transition: transform .3s ease;
     }
     .widget__hidden {
