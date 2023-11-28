@@ -21,7 +21,7 @@ export const styles = `
     }
     .widget__icon {
         cursor: pointer;
-        width: 100%;
+        width: 50%;
         position: absolute;
         top: 14px;
         left: 14px;
