@@ -1,4 +1,4 @@
-import { CLOSE_ICON, SHIELD_ICON, styles } from "./asset";
+import { CLOSE_ICON, SHIELD_ICON, styles } from "./asset.js";
 
 class MessageWidget {
   constructor(position = "bottom-right") {
