@@ -84,16 +84,13 @@ class MessageWidget {
             <h3>Compliance Check</h3>
             <p>Powered by Complio</p>
         </header>
+        <div class="cert__container">
+          ${SHIELD_ICON}
+          <p>
+            DTAC - 100 %
+          </p>          
+        </div>
         <form>
-            <div class="form__field">
-                <label for="name">Name</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Enter your name"
-                />
-            </div>
             <div class="form__field">
                 <label for="email">Email</label>
                 <input
@@ -104,22 +101,13 @@ class MessageWidget {
                 />
             </div>
             <div class="form__field">
-                <label for="subject">Subject</label>
+                <label for="message">Subject</label>
                 <input
                   type="text"
-                  id="subject"
-                  name="subject"
-                  placeholder="Enter Message Subject"
-                />
-            </div>
-            <div class="form__field">
-                <label for="message">Message</label>
-                <textarea
                   id="message"
                   name="message"
-                  placeholder="Enter your message"
-                  rows="6"
-                ></textarea>
+                  placeholder="Enter Message"
+                />
             </div>
             <button>Request Access</button>
         </form>

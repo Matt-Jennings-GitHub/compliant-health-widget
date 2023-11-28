@@ -92,6 +92,20 @@ export const styles = `
     form button:hover {
         background-color: rgba(0, 0, 0, 95%);
     }
+   .cert__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    font-weight: bold;
+    gap: 16px;
+    margin:16px 1rem 0px 1rem;
+    padding: 16px;
+    background-color: #2781f3;
+    border-radius: 6px;
+   }
+
 `;
 
 export const SHIELD_ICON = `
